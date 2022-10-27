@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing import image
 
 app= Flask(__name__)
 
-MODEL_PATH ='plants_74.62.h5'
+MODEL_PATH ='plants_69.42.h5'
 
 model = load_model(MODEL_PATH)
 
